@@ -1,0 +1,240 @@
+  body{
+    background-color: #282828;
+    font-family: 'Poppins', sans-serif;
+  }
+  .spotdiv {
+    padding-top:4em;
+  }
+  .maincontent{
+    min-height: calc(100vh - 106px);
+  }
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0 !important;
+  border-radius: 50%;
+}
+.material-icons{
+  vertical-align:middle !important;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+    opacity: 1;
+}
+.outputimg{
+  width: 100%;
+}
+  .myfooter {
+    height: 50px;
+    background-color: #000;
+    color:#fff;
+    line-height: 50px;
+}
+  .customnav{
+    background-color: #000;
+    color:#fff;
+  }
+
+  /* Desktop */
+  @media (min-width: 992px)
+  {
+    .navbar-brand{
+      padding-left: 25px;
+    }
+    .phone_menu{
+      display: none;
+    }
+    .customcontent{
+      padding-left: 5rem;
+    }
+    .myfooter {
+      padding-left: 25px;
+  }
+  .btn-circle {
+    float:right;
+  }
+  }
+
+  /* Phone */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .desktop_menu{
+      display: none;
+    }
+    .sidenav{
+      display:none;
+    }
+    .btn-circle {
+      margin-bottom: 20px !important;
+    }
+  }
+
+  .navbutton div{
+    padding:15px;
+    border-radius: 50px;
+    background-color: #000;
+    width:100%;
+    padding:15px;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color:white;
+    margin-bottom: 15px;
+  }
+  .navbutton div:hover{
+    background-color: #464e56;
+    transition: 0.3s;
+  }
+  .navlink{
+    width:100%;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#343A40;
+  }
+  .title h5{
+    padding-left: 25px;
+  }
+  .hello{
+    text-align: right;
+  }
+  .sidenav{
+    border-right: 1px solid grey;
+  }
+  .labbutton div{
+    padding:15px;
+    border-radius: 25px;
+    width:100%;
+    height: 10em;
+    padding:25px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #fff;
+    color:#000;
+    margin-bottom: 15px;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+      0 12.5px 10px rgba(0, 0, 0, 0.035),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      0 100px 80px rgba(0, 0, 0, 0.07);
+    }
+  .labbutton div:hover{
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.028),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.04),
+      0 12.5px 10px rgba(0, 0, 0, 0.05),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.06),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.072),
+      0 100px 80px rgba(0, 0, 0, 0.1);
+    transition: 0.1s;
+  }
+  .page-title h3{
+    font-weight: 800;
+  }
+  .sub-page-title h5{
+    font-weight: 400;
+  }
+  .pending-exp{
+    color:#FF4606;
+    text-decoration: underline;
+  }
+  .completed-exp{
+    color:#039313;
+    text-decoration: underline;
+  }
+  .prevlabslink{
+    float:right;
+  }
+  .prevlabslink{
+    font-size: 20px;
+    font-weight: 800;
+    color:#21252B;
+    text-decoration: underline;
+  }
+
+  .btn {
+    padding: .5rem 1rem;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+
+  .topbox {
+    background-color: #1A1A1C;
+    color:#B3B3B3;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .killihead {
+    padding-top: 0.3em;
+  }
+
+  .killitopbox {
+    background-color: #3e3e3e;
+    padding: 1em;
+    border-radius: 25px;
+  }
+
+  .secondbox {
+    background-color: #282828;
+    color:#B3B3B3;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+  }
+
+  .killisecondbox {
+    background-color: #252525;
+    padding: 1em;
+    border-radius: 25px;
+  }
+
+  .thirdbox {
+    background-color: #1f1f1f;
+    color:#B3B3B3;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .thirdbox p{
+    color:#B3B3B3;
+  }
+  .cutebtn {
+    background-color: #ff0b2f;
+    color: #fff;
+    border: 0px;
+  }
+  .nicebtn {
+    background-color: #242525;
+    color: #fff;
+    border: 0px;
+  }
+  .killicard {
+    background-color: #2f2f2f;
+    color:#B3B3B3;
+  }
+  .reviewslist {
+    padding-top: 1em;
+  }
+
+  .custom-text {
+      background-color: #675555;
+      border-radius: 25px;
+      color:#fff;
+  }
+  .custom-text::placeholder {
+      color:#B3B3B3;
+  }
+
+  .custom-select {
+      background-color: #675555;
+      border-radius: 25px;
+      color:#B3B3B3;
+  }
+
+  .form-control {
+      border: 1px solid #ced4da00;
+    }
